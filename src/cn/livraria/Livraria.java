@@ -28,7 +28,7 @@ public class Livraria {
     public Livro buscarLivro(String nome) throws  RuntimeException{
         for (int i = 0; i < livros.length; i++){
             Livro livro= livros[i];
-            if (livro.nome.equals(nome)){
+            if (livro.getNome().equals(nome)){
                 return livro;
             }
         }
