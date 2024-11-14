@@ -12,8 +12,7 @@ public class CadastroDeLivros {
         Livro livroPython = new Livro("Python para iniciantes", "aprenda python", 50.90, "3583485", autorWeslen);
         livroPython.mostrarDetalhes();
 
-
-
+        Livro livroAvulso = new Livro();
 
 
     }

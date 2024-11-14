@@ -16,6 +16,8 @@ public class Livro {
         this.autor = autor;
     }
 
+    Livro(){};
+
     public String getNome(){
         return this.nome;
     }
