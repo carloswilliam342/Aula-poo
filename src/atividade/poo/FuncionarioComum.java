@@ -2,14 +2,14 @@ package atividade.poo;
 
 public class FuncionarioComum extends Funcionario {
 
-    private double SalarioMensal;
+    private double salarioMensal;
 
-    public FuncionarioComum(String nome, String cpf) {
-        super(nome, cpf);
+    public FuncionarioComum(String nome, String cpf, double salarioMensal) {
+        super(nome, cpf, salarioMensal);
     }
 
     @Override
     public double calcularSalario() {
-        return 0;
+        return this.salarioMensal;
     }
 }

@@ -6,8 +6,11 @@ public class FuncionarioComissionado extends Funcionario{
         super(nome, cpf);
     }
 
+    private double salarioBase;
+
     @Override
     public double calcularSalario() {
+        return this.salarioBase + this.
         return 0;
     }
 }

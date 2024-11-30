@@ -1,12 +1,14 @@
 package atividade.poo;
 
 public abstract class Funcionario {
-    private String nome;
+    protected String nome;
     private String cpf;
+    private double salario;
 
-    Funcionario(String nome, String cpf){
+    Funcionario(String nome, String cpf, double salario){
         this.nome = nome;
         this.cpf = cpf;
+        this.salario = salario;
     }
 
     public abstract  double calcularSalario();
@@ -33,5 +35,13 @@ public abstract class Funcionario {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public double getSalario(){
+        return salario;
+    }
+
+    public void setSalario(double salario){
+        this.salario = salario;
     }
 }
